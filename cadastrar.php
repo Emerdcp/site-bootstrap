@@ -55,13 +55,13 @@
                                 <div class="col-6">
                                     <div class="form-group mb-3">
                                         <label class="label">Senha</label>
-                                        <input placeholder="********" name="senha" type="passwrod" class="form-control">
+                                        <input placeholder="********" name="senha" type="password" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="form-group mb-3">   
                                         <label class="label">Confirmação de Senha</label>
-                                        <input placeholder="********" name="confirmacao_senha" type="passwrod" class="form-control">
+                                        <input placeholder="********" name="confirmacao_senha" type="password" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -92,10 +92,10 @@
                                     <div class="form-group mb-3">
                                         <label class="label">Estado</label>
                                             <select nome="estado" id="estado" form="estado" class="form-select">
-                                            <option value="SP">São Paulo</option>
                                             <option value="PR">Paraná</option>
-                                            <option value="SC">Santa Catarina</option>
                                             <option value="RS">Rio Grande do Sul</option>
+                                            <option value="SC">Santa Catarina</option>
+                                            <option value="SP">São Paulo</option>
                                         </select>
                                     </div>
                                 </div>
