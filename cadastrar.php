@@ -7,6 +7,11 @@
     <title>Cadastrar</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .borda{
+            border: 1px solid black; border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <main class="container">
@@ -15,7 +20,7 @@
                 <h2>Cadastro</h2>
             </div>
         </div>    
-        <div class="row justify-content-center">
+        <div class="row justify-content-center borda">
             <div class="cal-md-12 col-lg-10">
                     <div class="row align-items-center">
                         
@@ -82,20 +87,26 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-5">
+                                    <div class="form-group mb-3">
+                                        <label class="label">Bairro</label>
+                                        <input placeholder="Bairro" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-5">
                                     <div class="form-group mb-3">
                                         <label class="label">Cidade</label>
                                         <input placeholder="Cidade" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-2">
                                     <div class="form-group mb-3">
                                         <label class="label">Estado</label>
                                             <select nome="estado" id="estado" form="estado" class="form-select">
-                                            <option value="PR">Paraná</option>
-                                            <option value="RS">Rio Grande do Sul</option>
-                                            <option value="SC">Santa Catarina</option>
-                                            <option value="SP">São Paulo</option>
+                                            <option value="PR">PR</option>
+                                            <option value="RS">RS</option>
+                                            <option value="SC">SC</option>
+                                            <option value="SP">SP</option>
                                         </select>
                                     </div>
                                 </div>
