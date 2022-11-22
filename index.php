@@ -12,7 +12,7 @@
     <main class="container">
         <div class="row justify-content-center">
             <div class="cal-md-6 text-center mb-5">
-                <h2>Login</h>
+                <h2>Login</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -26,7 +26,7 @@
                             <h3>Acesso Restrito</h3>
                         </div>
                         <from>
-                            <div class="from-group mb-3">
+                            <div class="form-group mb-3">
                                 <label class="label">Usuário ou E-mail</label>
                                 <input placeholder="usuário" class="form-control">
                             </div>
