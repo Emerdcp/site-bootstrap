@@ -16,8 +16,8 @@
 <body>
     <main class="container">
         <div class="row justify-content-center">
-            <div class="cal-md-6 text-center mb-5">
-                <h2>Cadastro</h2>
+            <div class="cal-md-6 text-center mb-4">
+                <h1>Cadastro</h1>
             </div>
         </div>    
         <div class="row justify-content-center borda">
