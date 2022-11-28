@@ -24,7 +24,7 @@
             <div class="cal-md-12 col-lg-10">
                     <div class="row align-items-center">
                         
-                        <div class="col-7">
+                        <div class="col-lg-7 col-md-12">
                         <form>
                             <div class="row">
                                 <div class="col-5">
@@ -118,7 +118,7 @@
                             </div>
                         </form>
                         </div>
-                        <div class="col-5">
+                        <div class="col-md-12 col-lg-5">
                             <img class="img" src="cadastro.png" width="350px">
                         </div> 
                     </div>
