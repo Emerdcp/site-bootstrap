@@ -103,11 +103,11 @@
                                     <div class="form-group mb-3">
                                         <label class="label">Estado</label>
                                             <select nome="estado" id="estado" form="estado" class="form-select">
-                                            <option value="PR">PR</option>
-                                            <option value="RS">RS</option>
-                                            <option value="SC">SC</option>
-                                            <option value="SP">SP</option>
-                                        </select>
+                                                <option value="PR">PR</option>
+                                                <option value="RS">RS</option>
+                                                <option value="SC">SC</option>
+                                                <option value="SP">SP</option>
+                                            </select>
                                     </div>
                                 </div>
                             </div>
