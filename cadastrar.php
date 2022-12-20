@@ -16,12 +16,12 @@
 <body>
     <main class="container">
         <div class="row justify-content-center">
-            <div class="cal-md-6 text-center mb-4">
+            <div class="col-md-6 text-center mb-4">
                 <h1>Cadastro</h1>
             </div>
         </div>    
         <div class="row justify-content-center borda">
-            <div class="cal-md-12 col-lg-10">
+            <div class="col-md-12 col-lg-10">
                     <div class="row align-items-center">
                         
                         <div class="col-lg-7 col-md-12">
@@ -30,7 +30,7 @@
                                     <div class="col-5">
                                         <div class="form-group mb-3">
                                             <label class="label">Nome</label>
-                                            <input placeholder="Nome" name="nome" id="nome" class="form-control">
+                                            <input name="nome" id="nome" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-7">
